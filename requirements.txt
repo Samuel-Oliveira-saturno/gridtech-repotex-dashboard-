@@ -1,0 +1,10 @@
+gradio
+pandas
+numpy
+matplotlib
+geopandas
+shapely
+scikit-learn
+scipy
+pyarrow
+requests
