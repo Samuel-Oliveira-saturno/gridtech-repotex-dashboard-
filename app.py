@@ -542,11 +542,14 @@ with gr.Blocks(
                 value=logo_arr,
                 label=None,
                 interactive=False,
-                show_label=False
+                show_label=False,
+                show_download_button=False,
+                show_fullscreen_button=False,
+                show_share_button=False  # se existir na sua versão
             )
         with gr.Column(scale=1):
             gr.Markdown(
-                "## INSTITUTO GRIDTECH — RePoTEx\n"
+                "## Project — RePoTEx\n"
                 "Voronoi Geographic Clustering of INMET Weather Stations"
             )
 
