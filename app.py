@@ -559,6 +559,8 @@ with gr.Blocks(
                 label=None,
                 interactive=False,
                 show_label=False
+                width=200, # largura da imagem em pixels
+                height=200 # Altura da imagem  
             )
         with gr.Column(scale=1):
             gr.Markdown(
