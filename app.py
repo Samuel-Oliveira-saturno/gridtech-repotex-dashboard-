@@ -553,14 +553,14 @@ with gr.Blocks(
 
     # Cabeçalho com logo + textos
     with gr.Row():
-        with gr.Column(scale=0, min_width=220):
+        with gr.Column(scale=0, min_width=260):
             gr.Image(
                 value=logo_arr,
                 label=None,
                 interactive=False,
                 show_label=False
-                width=200, # largura da imagem em pixels
-                height=200 # Altura da imagem  
+                width=240, # largura da imagem em pixels
+                 
             )
         with gr.Column(scale=1):
             gr.Markdown(
