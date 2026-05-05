@@ -7,4 +7,5 @@ shapely
 scikit-learn
 scipy
 pyarrow
+folium
 requests
